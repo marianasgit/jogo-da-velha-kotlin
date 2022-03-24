@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JogoDaVelha">
         <activity
+            android:name=".JogandoComPc"
+            android:exported="false" />
+        <activity
+            android:name=".EscolhaDeAdversario"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

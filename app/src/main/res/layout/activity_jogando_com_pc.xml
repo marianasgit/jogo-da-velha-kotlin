@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".JogandoComPc">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="101dp"
+        android:background="@drawable/borda"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Jogo da Velha"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Melhor de Três"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="146dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Escolha seu adversário"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="50px"
+            android:background="@drawable/botao_selecionado_pequeno"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Jogar com Amigo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="191dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="263dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Selecione o nível"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50px"
+            android:background="@drawable/botao_trasnparente"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Fácil"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="191dp" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50px"
+            android:background="@drawable/botao_trasnparente"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Médio"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="191dp" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50px"
+            android:background="@drawable/botao_trasnparente"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Dificil"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="191dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borda"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="514dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Jogador"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/bungee_shade"
+            android:text="X"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borda"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="514dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="PC"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/bungee_shade"
+            android:text="Y"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_selecionado_pequeno"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
