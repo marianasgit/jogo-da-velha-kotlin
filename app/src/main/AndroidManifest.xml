@@ -10,17 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JogoDaVelha">
         <activity
+            android:name=".JogandoComAmigo"
+            android:exported="false" />
+        <activity
             android:name=".JogoEmAcao"
             android:exported="false" />
         <activity
             android:name=".JogandoComPc"
-            android:exported="false" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".EscolhaDeAdversario"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

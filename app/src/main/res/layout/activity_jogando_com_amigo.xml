@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JogandoComAmigo"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="101dp"
+        android:background="@drawable/borda"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Jogo da Velha"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melhor de Três"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="172dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Escolha seu adversário"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <Button
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:background="@drawable/botao_selecionado_pequeno"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Jogar com Amigo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="191dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="98dp"
+        android:background="@drawable/borda"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="373dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O Jogador 1 será representado por:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="463dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:fontFamily="@font/bungee_shade"
+            android:text="X"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="38sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="98dp"
+        android:background="@drawable/borda"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="506dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O Jogador 2 será representado por:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="463dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee_shade"
+            android:text="Y"
+            android:textColor="@color/black"
+            android:textSize="38sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="176dp"
+        android:layout_height="38dp"
+        android:background="@drawable/botao_selecionado_pequeno"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="Vamos começar!"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="644dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
