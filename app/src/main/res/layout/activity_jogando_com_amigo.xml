@@ -8,14 +8,15 @@
     android:background="@color/background">
 
     <LinearLayout
+        android:id="@+id/linearLayout6"
         android:layout_width="412dp"
         android:layout_height="101dp"
         android:background="@drawable/borda"
         android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="-2dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,13 +40,16 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="172dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:layout_width="wrap_content"
@@ -74,14 +78,17 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout9"
         android:layout_width="253dp"
         android:layout_height="98dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="252dp"
         android:background="@drawable/borda"
         android:gravity="center"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="373dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:layout_width="wrap_content"
@@ -103,14 +110,17 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout8"
         android:layout_width="253dp"
         android:layout_height="98dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/borda"
         android:gravity="center"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="506dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:layout_width="wrap_content"
@@ -131,14 +141,4 @@
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="176dp"
-        android:layout_height="38dp"
-        android:background="@drawable/botao_selecionado_pequeno"
-        android:fontFamily="@font/montserrat_alternates"
-        android:text="Vamos começar!"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="644dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

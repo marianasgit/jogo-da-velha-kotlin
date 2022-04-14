@@ -60,15 +60,18 @@
             android:layout_height="40dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/botao_trasnparente"
-            android:text="Jogar com Amigo" />
+            android:text="Jogar com Amigo"
+            android:textColor="#000000" />
 
 
         <Button
+            android:id="@+id/jogoPC"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/botao_trasnparente"
-            android:text="Jogar com PC" />
+            android:text="Jogar com PC"
+            android:textColor="#000000" />
 
 
         <LinearLayout

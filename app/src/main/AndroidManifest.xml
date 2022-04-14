@@ -11,10 +11,12 @@
         android:theme="@style/Theme.JogoDaVelha">
         <activity
             android:name=".JogandoComAmigo"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
-            android:name=".JogoEmAcao"
-            android:exported="false" />
+            android:name=".JogoEmAcaoAmigo"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".JogandoComPc"
             android:exported="true"
@@ -22,7 +24,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category" />
             </intent-filter>
         </activity>
         <activity
@@ -31,7 +33,7 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

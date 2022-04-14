@@ -44,6 +44,7 @@
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,9 +84,12 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.03"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -98,6 +102,7 @@
 
 
         <Button
+            android:id="@+id/jogoFacil"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_marginTop="50px"
@@ -105,11 +110,14 @@
             android:fontFamily="@font/montserrat_alternates"
             android:text="Fácil"
             android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="109dp"
             tools:layout_editor_absoluteY="191dp" />
 
 
         <Button
+            android:id="@+id/jogoMedio"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_marginTop="50px"
@@ -117,11 +125,14 @@
             android:fontFamily="@font/montserrat_alternates"
             android:text="Médio"
             android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="109dp"
             tools:layout_editor_absoluteY="191dp" />
 
 
         <Button
+            android:id="@+id/jogoDificil"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_marginTop="50px"
@@ -129,8 +140,11 @@
             android:fontFamily="@font/montserrat_alternates"
             android:text="Dificil"
             android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="109dp"
-            tools:layout_editor_absoluteY="191dp" />
+            tools:layout_editor_absoluteY="191dp"
+            tools:ignore="InvalidId" />
 
     </LinearLayout>
 
@@ -161,14 +175,14 @@
             android:fontFamily="@font/bungee_shade"
             android:text="X"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="34sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="112dp"
         android:background="@drawable/borda"
         android:gravity="center"
         android:orientation="vertical"
@@ -192,7 +206,7 @@
             android:fontFamily="@font/bungee_shade"
             android:text="Y"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="34sp" />
 
     </LinearLayout>
 
