@@ -18,6 +18,10 @@ class JogoEmAcaoAmigo : AppCompatActivity() {
 
         titulo.text = "Jogo da Velha - " + intent.getStringExtra("nivel")*/
 
+        var jogador1 = arrayListOf<Int>();
+        var jogador2 = arrayListOf<Int>();
+
+
         val buttons = arrayOf(
             findViewById<Button>(R.id.campo1),
             findViewById<Button>(R.id.campo2),
@@ -36,9 +40,19 @@ class JogoEmAcaoAmigo : AppCompatActivity() {
                 it.isEnabled = false
                 it.setTextColor(getColor(R.color.black))
 
+                validarGanhador(buttons)
+
+
                 proximoJogador()
             }
         }
+
+    }
+
+    private fun validarGanhador (buttons:Array<Button>) {
+
+        if(buttons[0].text == "X" && buttons[1].text == "X" && buttons[2].text == "X" ||
+           buttons[3].text == "X" && buttons[4].text == "X" && buttons[])
 
 
     }
